@@ -33,6 +33,7 @@
 		946093332445F88B00A36756 /* JSONANDXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONANDXML.h; sourceTree = "<group>"; };
 		946093342446116200A36756 /* FESCopyDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FESCopyDemo.h; sourceTree = "<group>"; };
 		946093352446116200A36756 /* FESCopyDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FESCopyDemo.m; sourceTree = "<group>"; };
+		946093372448D37600A36756 /* NSCopyingDocs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCopyingDocs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				9460931E2445F43900A36756 /* SceneDelegate.m */,
 				946093202445F43900A36756 /* ViewController.h */,
 				946093212445F43900A36756 /* ViewController.m */,
+				946093372448D37600A36756 /* NSCopyingDocs.h */,
 				946093342446116200A36756 /* FESCopyDemo.h */,
 				946093352446116200A36756 /* FESCopyDemo.m */,
 				946093232445F43900A36756 /* Main.storyboard */,
