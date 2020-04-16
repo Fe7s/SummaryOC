@@ -1,51 +1,79 @@
 //
-//  Outline.h
-//  NoClassifiedSunmmary
+//  JSONANDXML.h
+//  Backlog
 //
-//  Created by Dove on 2020/4/10.
+//  Created by 鹤九霄 on 2020/4/14.
 //  Copyright © 2020 Fe7s. All rights reserved.
 //
-// 概述
+// JSON解析 和 XML解析
 
-#ifndef Outline_h
-#define Outline_h
+#ifndef JSONANDXML_h
+#define JSONANDXML_h
+
+
 
 #### JSON解析
 ---
+##### 简单的特点：
+
 - 轻量级数据格式，一般用于数据交互
 - 形式上类似于字典和数组
-- 解析方案：
+- 只需读取JSON字符串
     
-    > 1、第三方框架
-    JSONKit
-    SBJSON
-    TouchJson
-        
-    >2、原生
-    NSJONSerialization
+#####  解析方案：
+
+1、第三方框架：
+
+- JSONKit
+
+    > 6.2K
+    > 旧 2012年的产物
+    >  停更
+    > C
+    > MRC
+    > 适用于iOS5.0以下版本
+    > 号称效率高
+
+- SBJSON
+    > 仍在维护
+    >  效率只比touchJSON好一点
+    > 可以读读源码学习一波
+- TouchJson
+    > 不足1K
+    > 停更
+    > 效率低
+- YAJL
+    > C
+    > 停更 5years age
     
-转换
+2、原生
+
+- NSJONSerialization
+    
+##### 转换:    binary <--> Foundation object
 1、json->OC对象
 2、OC对象->json对象
 3、OC对象和JSON数据格式之间的一一对应关系
 
-查看JSON数据
+##### 查看JSON数据的方式
 1、在线
-2、转成plist文件
+2、专程plist文件
 
-相关框架：
+##### 数据转模型相关框架：
 
 - mantle ： 需要继承自MTModle
 - JSONModel： 需要继承自JSONModel
 - MJExtension：不需要继承，无代码入侵
 
-自己设计需要注意点
+##### 自己设计需要注意点
 
 - 侵入性
 - 易用性
-- 扩展性
+- 扩展性mac
 
----
+
+
+
 
 
 #### XML解析
@@ -70,6 +98,8 @@
 多值参数如何设置请求路径
 如何解决字典和数组中输出乱码的问题
 
+[url](https://www.jianshu.com/p/e777e13b6246)
 
 
-#endif /* Outline_h */
+
+#endif /* JSONANDXML_h */
