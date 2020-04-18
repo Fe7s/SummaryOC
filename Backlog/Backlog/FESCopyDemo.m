@@ -43,9 +43,16 @@
     FESCopyDemo *copyDemo = [[[self class] allocWithZone:zone]initWithDemoName:_demoName];
     
     // copy 创建出来之后，copyDemo->_usedNameArray是空的， 所以要把_usedNameArray给copyDemo->_usedNameArray
-    // 如果是可变的那么要使用[_usedNameArray mutableCopy]
+    // _usedNameArray如果是可变的那么要使用[_usedNameArray mutableCopy]
     // 根据深浅拷贝来判定
     copyDemo->_usedNameArray = [_usedNameArray mutableCopy]; // _usedNameArray;
+    
+    /**
+     * 注释：关于copyDemo->_usedNameArray = [_usedNameArray mutableCopy] _usedNameArray的拷贝问题：
+     * 如果_usedNameArray是不可变的，那么不需要copy一份，如果是可变的则必须mutableCopy，负责修改其中的一个对象的_usedNameArray，另一个也会跟着改变
+     * 使用[[[self class] allocWithZone:zone]initWithDemoName:_demoName];来拷贝对象的缺点：
+     * -initWithDemoName:方法如果有复杂的对拷贝对象没有用处的操作时，每次copy都要处理这些无用的复杂操作
+     */
 
     // 打印copy出来的新的对象
     NSLog(@"\nself:%p  \ncopyDemo:%p",self, copyDemo);
