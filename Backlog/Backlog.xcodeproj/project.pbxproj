@@ -15,6 +15,8 @@
 		9460932A2445F43E00A36756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946093282445F43E00A36756 /* LaunchScreen.storyboard */; };
 		9460932D2445F43E00A36756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460932C2445F43E00A36756 /* main.m */; };
 		946093362446116200A36756 /* FESCopyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 946093352446116200A36756 /* FESCopyDemo.m */; };
+		946527E1244F28920085BDA6 /* FESDesigatedInitalizerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 946527E0244F28920085BDA6 /* FESDesigatedInitalizerDemo.m */; };
+		946527E5244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 946527E4244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,11 @@
 		946093342446116200A36756 /* FESCopyDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FESCopyDemo.h; sourceTree = "<group>"; };
 		946093352446116200A36756 /* FESCopyDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FESCopyDemo.m; sourceTree = "<group>"; };
 		946093372448D37600A36756 /* NSCopyingDocs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCopyingDocs.h; sourceTree = "<group>"; };
+		946527DF244F28920085BDA6 /* FESDesigatedInitalizerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FESDesigatedInitalizerDemo.h; sourceTree = "<group>"; };
+		946527E0244F28920085BDA6 /* FESDesigatedInitalizerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FESDesigatedInitalizerDemo.m; sourceTree = "<group>"; };
+		946527E2244F28AE0085BDA6 /* FESDesigatedInitalizerDocs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FESDesigatedInitalizerDocs.h; sourceTree = "<group>"; };
+		946527E3244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FESDesigatedInitalizer_subDemo.h; sourceTree = "<group>"; };
+		946527E4244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FESDesigatedInitalizer_subDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +83,11 @@
 				946093372448D37600A36756 /* NSCopyingDocs.h */,
 				946093342446116200A36756 /* FESCopyDemo.h */,
 				946093352446116200A36756 /* FESCopyDemo.m */,
+				946527E2244F28AE0085BDA6 /* FESDesigatedInitalizerDocs.h */,
+				946527DF244F28920085BDA6 /* FESDesigatedInitalizerDemo.h */,
+				946527E0244F28920085BDA6 /* FESDesigatedInitalizerDemo.m */,
+				946527E3244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.h */,
+				946527E4244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.m */,
 				946093232445F43900A36756 /* Main.storyboard */,
 				946093262445F43E00A36756 /* Assets.xcassets */,
 				946093282445F43E00A36756 /* LaunchScreen.storyboard */,
@@ -158,8 +170,10 @@
 				946093222445F43900A36756 /* ViewController.m in Sources */,
 				9460931C2445F43900A36756 /* AppDelegate.m in Sources */,
 				946093362446116200A36756 /* FESCopyDemo.m in Sources */,
+				946527E5244F32AF0085BDA6 /* FESDesigatedInitalizer_subDemo.m in Sources */,
 				9460932D2445F43E00A36756 /* main.m in Sources */,
 				9460931F2445F43900A36756 /* SceneDelegate.m in Sources */,
+				946527E1244F28920085BDA6 /* FESDesigatedInitalizerDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
